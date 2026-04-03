@@ -43,9 +43,9 @@ type Client struct {
 	fromEmail string
 	fromName  string
 
-	noTrackOpens          bool
-	noTrackClicks         bool
-	ignoreDeliveryPolicy  bool
+	noTrackOpens         bool
+	noTrackClicks        bool
+	ignoreDeliveryPolicy bool
 
 	httpClient *http.Client
 	debug      bool
