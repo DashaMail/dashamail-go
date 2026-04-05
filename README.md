@@ -21,7 +21,7 @@ Go client library for the [DashaMail transactional email API](https://dashamail.
 ## Installation
 
 ```bash
-go get github.com/kra-so/dashamail-go
+go get github.com/DashaMail/dashamail-go
 ```
 
 Requires Go 1.21 or later.
@@ -36,7 +36,7 @@ import (
 	"fmt"
 	"log"
 
-	dashamail "github.com/kra-so/dashamail-go"
+	dashamail "github.com/DashaMail/dashamail-go"
 )
 
 func main() {
